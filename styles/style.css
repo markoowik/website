@@ -63,11 +63,13 @@ body {
   .header-burger {
     display: block;
     position: relative;
-    z-index: 3;
+    z-index: 10;
+    top: 2px;
+    left: -50px;
     width: 30px;
     height: 20px;
-    background-color: #0e112e;
-    left: -100px;
+    background-color: var(--Accent);
+    /* left: -200px; */
   }
   .header-burger:before,
   .header-burger:after {
@@ -141,11 +143,17 @@ body {
   }
   .nav {
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
+    width: 200px;
   }
   .nav__logo {
     position: relative;
-    left: 100px;
+    left: 200px;
   }
+  /* .nav__row {
+    padding-left: 30px;
+    width: 300px;
+  } */
 }
