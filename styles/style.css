@@ -207,6 +207,66 @@ body {
   font-weight: 500;
   line-height: normal;
 }
+.about3 {
+  background-color: #f9f9f9;
+  padding: 0 685px 0 685px;
+  height: 650px;
+}
+.about3__content {
+  display: flex;
+  column-gap: 150px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 102px;
+}
+.about3__text {
+  display: flex;
+  flex-direction: column;
+}
+.about3__skill-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 19.88px;
+}
+.about3__skill-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 19.88px;
+}
+.about3__text-title h2 {
+  color: #000;
+  /* h2 */
+  width: 300px;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 50px;
+}
+.about3__skill-bar-title p {
+  color: #727272;
+
+  /* p */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.063%; /* 26.25px */
+}
+.about3__skill__bar-container {
+  width: 455px;
+  background-color: #c4c4c4;
+}
+.html {
+  width: 349.357px;
+  height: 4px;
+  background-color: var(--Accent);
+}
+.about3__img img {
+  width: 555px;
+  height: 450px;
+}
 @media (max-width: 767px) {
   .header-burger {
     display: block;
@@ -359,5 +419,36 @@ body {
   }
   .about__card-desc {
     margin-left: 10px;
+  }
+  .about3 {
+    padding: 0 90px 0 90px;
+    height: 700px;
+  }
+  .about3__content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .about3__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about3__img img {
+    width: 355px;
+    height: 300px;
+  }
+  .about3__text-title {
+    padding-left: 110px;
+  }
+  .about3__skill__bar-container {
+    width: 355px;
+    background-color: #c4c4c4;
+  }
+  .html {
+    width: 249.357px;
+    height: 4px;
+    background-color: var(--Accent);
   }
 }
