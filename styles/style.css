@@ -713,4 +713,26 @@ html {
     width: 260px;
     height: 10px;
   }
+  .footer {
+    padding: 0 100px 110px 90px;
+    height: 180px;
+  }
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .footer__text-title h3 {
+    width: 280px;
+  }
 }
