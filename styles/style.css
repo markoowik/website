@@ -714,7 +714,7 @@ html {
     height: 10px;
   }
   .footer {
-    padding: 0 100px 110px 90px;
+    padding: 0 70px 0 70px;
     height: 180px;
   }
   .footer__content {
@@ -733,6 +733,6 @@ html {
     padding-top: 30px;
   }
   .footer__text-title h3 {
-    width: 280px;
+    width: 180px;
   }
 }
